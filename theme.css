@@ -1,7 +1,7 @@
 /**
  * App Window
  */
-@define-color bg_color #e5e5e5;
+@define-color bg_color #2b2b2b;
 @define-color window_bg @bg_color;
 @define-color window_border_color #414141;
 @define-color prefs_backgroud #999;
@@ -9,7 +9,7 @@
 /**
  * Input
  */
-@define-color selected_bg_color #198cff;
+@define-color selected_bg_color #17645c;
 @define-color selected_fg_color #d5eaff;
 @define-color input_color #ddd;
 @define-color caret_color darker(@input_color);
@@ -19,7 +19,7 @@
  */
 @define-color item_name #ddd;
 @define-color item_text #999;
-@define-color item_box_selected #285C99;
+@define-color item_box_selected #17645c;
 @define-color item_text_selected #99ccff;
 @define-color item_name_selected #eee;
 @define-color item_shortcut_color #777;
@@ -31,7 +31,7 @@
     background-color: @window_bg;
     border-width: 0;
     border-top: 1px solid @window_border_color;
-    border-radius: 12px;
+    border-radius: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
